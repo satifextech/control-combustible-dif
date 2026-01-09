@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vale de Combustible DIF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Solicitud de Carga de Combustible</h2>
+
+  <form id="fuelForm">
+    <label>Chofer</label>
+    <input type="text" name="chofer" required>
+
+    <label>Unidad</label>
+    <input type="text" name="unidad" required>
+
+    <label>Destino</label>
+    <input type="text" name="destino" required>
+
+    <label>Motivo</label>
+    <input type="text" name="motivo" required>
+
+    <label>Kilometraje actual</label>
+    <input type="number" name="km_inicial" required>
+
+    <label>Foto del tablero</label>
+    <input type="file" name="foto" accept="image/*" required>
+
+    <button type="submit">Enviar solicitud</button>
+  </form>
+
+  <p id="msg"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
