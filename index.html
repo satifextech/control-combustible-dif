@@ -2,36 +2,33 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Vale de Combustible DIF</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Solicitud de Carga de Combustible</title>
 </head>
 <body>
-  <h2>Solicitud de Carga de Combustible</h2>
 
-  <form id="fuelForm">
-    <label>Chofer</label>
-    <input type="text" name="chofer" required>
+<h2>Solicitud de Carga de Combustible</h2>
 
-    <label>Unidad</label>
-    <input type="text" name="unidad" required>
+<form id="fuelForm">
+  <label>Chofer</label>
+  <input type="text" name="chofer" required><br><br>
 
-    <label>Destino</label>
-    <input type="text" name="destino" required>
+  <label>Unidad</label>
+  <input type="text" name="unidad" required><br><br>
 
-    <label>Motivo</label>
-    <input type="text" name="motivo" required>
+  <label>Destino</label>
+  <input type="text" name="destino" required><br><br>
 
-    <label>Kilometraje actual</label>
-    <input type="number" name="km_inicial" required>
+  <label>Motivo</label>
+  <input type="text" name="motivo" required><br><br>
 
-    <label>Foto del tablero</label>
-    <input type="file" name="foto" accept="image/*" required>
+  <label>Kilometraje actual</label>
+  <input type="number" name="km_inicial" required><br><br>
 
-    <button type="submit">Enviar solicitud</button>
-  </form>
+  <button type="submit">Enviar solicitud</button>
+</form>
 
-  <p id="msg"></p>
+<p id="msg"></p>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
