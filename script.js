@@ -6,7 +6,7 @@ form.addEventListener("submit", async (e) => {
 
   const data = new FormData(form);
 
-  const response = await fetch("URL_DEL_APPS_SCRIPT", {
+  const response = await fetch("https://script.google.com/macros/s/AKfycbx-rD-EN3-cM7QCxr2nGvflYS8KIUqhFSOq5fRB5d2UYDHQjsexMg94yAisesbetxOVtQ/exec", {
     method: "POST",
     body: data
   });
